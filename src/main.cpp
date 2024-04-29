@@ -9,10 +9,13 @@ void setup() {
 }
 
 void loop() {
+  digitalPinHasPWM
   // put your main code here, to run repeatedly:
 }
 
 // put function definitions here:
 int myFunction(int x, int y, float w) {
+  w=x;
   return x + y;
 }
+//comentario 
