@@ -16,6 +16,7 @@ void loop() {
 // put function definitions here:
 int myFunction(int x, int y, float w) {
   w=x;
+  static int xx=0;
   return x + y;
 }
 //comentario 
